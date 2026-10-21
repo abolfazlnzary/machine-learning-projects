@@ -17,7 +17,7 @@ An educational Machine Learning project for predicting house prices per unit are
 
 ## Project Status
 
-In progress
+Completed educational walkthrough: data exploration, training, evaluation, residual analysis, and prediction for a hypothetical property.
 
 ## Run locally
 
@@ -53,6 +53,7 @@ LinearRegression with an 80/20 random split (`random_state=42`): 331 training sa
 | RMSE | 7.3145 |
 | R-squared | 0.6811 |
 | Training-mean baseline MAE | 10.9167 |
+| Training MAE | 6.3397 |
 
 R-squared is not classification accuracy. Results describe this particular split and are not a guarantee for other locations or time periods.
 
@@ -60,4 +61,10 @@ R-squared is not classification accuracy. Results describe this particular split
 
 This is an educational project using historical data from a limited geographic area.
 Some feature relationships are nonlinear, and location features are correlated.
-Residual analysis and the final project conclusion are still in progress.
+Residual analysis shows some uneven error patterns and large individual errors. This split does not show the usual pattern of much lower training error than test error; a single split cannot establish generalization performance.
+
+## Conclusion
+
+Using six features reduced test MAE from the training-mean baseline of 10.9167 to 5.3052, approximately a 51% reduction. The model explained about 68.1% of test-target variation on this split. A hypothetical property prediction is included in the notebook, but its accuracy cannot be measured without an observed price.
+
+Future improvements include collecting more representative data, evaluating across additional splits, and comparing nonlinear models without repeatedly tuning against the held-out test set.

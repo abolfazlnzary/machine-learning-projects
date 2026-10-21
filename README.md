@@ -68,3 +68,8 @@ Residual analysis shows some uneven error patterns and large individual errors. 
 Using six features reduced test MAE from the training-mean baseline of 10.9167 to 5.3052, approximately a 51% reduction. The model explained about 68.1% of test-target variation on this split. A hypothetical property prediction is included in the notebook, but its accuracy cannot be measured without an observed price.
 
 Future improvements include collecting more representative data, evaluating across additional splits, and comparing nonlinear models without repeatedly tuning against the held-out test set.
+
+## Additional learning projects
+
+- [Perch Weight Prediction — Polynomial Regression](perch-polynomial-regression/README.md) — in progress; compares degrees 1, 2, and 3 using Length3 only.
+

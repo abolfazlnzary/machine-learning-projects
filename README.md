@@ -71,5 +71,4 @@ Future improvements include collecting more representative data, evaluating acro
 
 ## Additional learning projects
 
-- [Perch Weight Prediction — Polynomial Regression](perch-polynomial-regression/README.md) — in progress; compares degrees 1, 2, and 3 using Length3 only.
-
+- [Perch Weight Prediction — Polynomial Regression](perch-polynomial-regression/README.md) — completed educational walkthrough; compares degrees 1, 2, 3, and an overfitting demonstration using Length3 only.

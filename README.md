@@ -71,4 +71,5 @@ Future improvements include collecting more representative data, evaluating acro
 
 ## Additional learning projects
 
+- [Ultrasonic Response Prediction — Non-Linear Regression](chwirut1-nonlinear-regression/README.md) — NIST Chwirut1; compares a linear baseline with nonlinear curve fitting and residual analysis.
 - [Perch Weight Prediction — Polynomial Regression](perch-polynomial-regression/README.md) — completed educational walkthrough; compares degrees 1, 2, 3, and an overfitting demonstration using Length3 only.
